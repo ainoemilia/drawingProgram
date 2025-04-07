@@ -13,7 +13,7 @@ pygame.display.set_caption("Piirrosohjelma")
 font = pygame.font.SysFont("Arial", 16)
 clock = pygame.time.Clock()
 
-# Värit ja oletusarvot(sivellin, piirtotyyli)
+# Värit ja oletusarvot(sivellin, piirtotyyli
 draw_color = (0, 0, 0)
 brush_size = 10
 draw_mode = "free"  # "free", "circle", "square"
