@@ -145,4 +145,4 @@ while True:
             pygame.draw.rect(canvas, draw_color, rect, 2)
     #päivitetään näyttö
     pygame.display.flip()
-    clock.tick(60)
+    clock.tick(1000)
