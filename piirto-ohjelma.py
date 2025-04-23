@@ -108,10 +108,6 @@ def change_brush(direction):
     elif direction == "down":
         brush_size = max(1, brush_size - 5)
 
-def save_canvas():
-    #tallennetaan nykyinen piirtoalusta tiedostoksi
-    pygame.image.save(canvas, "piirros.png")
-    print("Kuva tallennettu tiedostoon piirros.png")
 
 #luodaan toolbar
 toolbar = Toolbar()
